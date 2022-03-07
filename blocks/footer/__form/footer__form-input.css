@@ -1,0 +1,21 @@
+.footer__form-input {
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  width: 313px;
+  border-radius: 40px;
+  font-size: 16px;
+  line-height: 1.37;
+  padding: 11px 18px;
+  margin-bottom: 12px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+.footer__form-input::placeholder {
+  color: #bfbfbf;
+}
+
+.footer__form-input:focus {
+  outline: 3px solid #40a6a9;
+}

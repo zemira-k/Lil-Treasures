@@ -1,0 +1,15 @@
+.freebie__item {
+  min-width: 25%;
+}
+
+@media screen and (max-width: 600px) {
+  .freebie__item {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .freebie__item {
+    width: 50%;
+  }
+}

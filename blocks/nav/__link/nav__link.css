@@ -1,0 +1,30 @@
+.nav__link {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  display: block;
+  font-size: 24px;
+  line-height: 1.3;
+  border-bottom: 3px dashed transparent;
+}
+
+.nav__link:hover {
+  border-bottom: 3px dashed #40a6a9;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1280px) {
+  .nav__link {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav__link {
+    font-size: 24px;
+  }
+}

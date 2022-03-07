@@ -1,0 +1,36 @@
+.nav__icon {
+  width: 30px;
+  height: 5px;
+  background: #e87c8e;
+  display: inline-block;
+  position: relative;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.nav__icon::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -8px;
+  width: 30px;
+  height: 5px;
+  background: #e87c8e;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.nav__icon::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 30px;
+  height: 5px;
+  background: #e87c8e;
+  display: inline-block;
+  border-radius: 20px;
+}

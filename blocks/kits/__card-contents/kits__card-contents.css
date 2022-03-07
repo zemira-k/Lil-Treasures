@@ -1,0 +1,22 @@
+.kits__card-contents {
+  min-height: 268px;
+  width: 80%;
+  text-align: left;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: auto;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .kits__card-contents {
+    min-width: 271px;
+  }
+}

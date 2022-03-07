@@ -1,0 +1,4 @@
+.form__input_type_error {
+  border: 4px solid #e87c8e;
+  box-sizing: border-box;
+}

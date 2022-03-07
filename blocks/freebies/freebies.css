@@ -1,0 +1,10 @@
+.freebies {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 425px) {
+  .freebies {
+    margin-bottom: 60px;
+  }
+}

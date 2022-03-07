@@ -1,0 +1,24 @@
+.footer__form-textarea {
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  padding: 16px 0 0 24px;
+  outline: none;
+  resize: none;
+  max-width: 313px;
+  min-height: 132px;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 19px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.footer__form-textarea::placeholder {
+  color: #bfbfbf;
+}
+
+.footer__form-textarea:focus {
+  outline: 3px solid #40a6a9;
+}

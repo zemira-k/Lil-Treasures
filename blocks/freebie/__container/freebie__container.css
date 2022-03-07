@@ -1,0 +1,28 @@
+.freebie__container {
+  background: #d2d7d9;
+  margin: 76px 65px 0 65px;
+  padding: 78px 0;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .freebie__container {
+    margin: 76px 20px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .freebie__container {
+    margin: 0;
+    padding: 30px 0;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+  }
+}

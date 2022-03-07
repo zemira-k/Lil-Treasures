@@ -1,0 +1,11 @@
+.logo_footer {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .logo_footer {
+    height: 100%;
+  }
+}

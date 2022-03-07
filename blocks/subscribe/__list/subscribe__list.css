@@ -1,0 +1,16 @@
+.subscribe__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 50px auto 0;
+  justify-content: center;
+  column-gap: 55px;
+  padding: 0;
+  row-gap: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .subscribe__list {
+    column-gap: 20px;
+  }
+}

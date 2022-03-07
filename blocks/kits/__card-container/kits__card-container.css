@@ -1,0 +1,12 @@
+.kits__card-container {
+  list-style: none;
+  display: flex;
+  margin: 50px 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .kits__card-container {
+    flex-wrap: wrap;
+  }
+}

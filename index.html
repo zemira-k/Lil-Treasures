@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon/site.webmanifest">
+    <link rel="stylesheet" href="./vendors/styles/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Lil' Treasures</title>
+</head>
+
+<body class="page">
+    <div class="page__container">
+        <header class="header">
+            <img src="./images/logo.png" alt="lil' treasures logo" class="logo" />
+            <nav class="nav">
+                <div class="nav__mobile-button" for="toggle">
+                    <span class="nav__icon"></span>
+                </div>
+                <ul class="nav__container"></ul>
+            </nav>
+        </header>
+        <main>
+            <section class="lead">
+                <img src="./images/lead_bg.png" alt="splashes of color" class="lead__image" />
+                <div class="lead__container">
+                    <h1 class="lead__title">
+                        A real Treasure box for your little ones!
+                    </h1>
+                    <p class="lead__subtitle">Projects for stay at home kids</p>
+                    <a href="#subscribe" class="button button_lead">Learn More</a>
+                </div>
+            </section>
+
+            <section class="subscribe" id="subscribe">
+                <ul class="subscribe__list"></ul>
+                <div class="subscribe__rectangle">
+                    <p class="subscribe__rectangle-text">
+                        Even if you are not professional we could help you to introduce
+                        games or activities that would impart cognitive or emotional
+                        skills of your child. Here are some activities that you can try.
+                        It can give your child exposure to craft. It is a creative way to
+                        help your kid give colours to his fantasies. They may make a mess,
+                        but they will learn more.
+                    </p>
+                </div>
+            </section>
+
+            <section class="kits" id="kits">
+                <ul class="kits__card-container"></ul>
+            </section>
+
+            <section class="freebies" id="freebies">
+                <div class="freebie__container">
+                    <ul class="freebie__list"></ul>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer" id="about-us">
+            <div class="footer__columns">
+                <div class="footer__column footer__column_type_about">
+                    <img class="logo logo_footer" src="./images/logo.png" alt="logo" />
+                    <div class="footer__list">
+                        <p class="footer__text">We help parents to rest</p>
+                        <p class="footer__text">We make kids never bored at home</p>
+                        <p class="footer__text">We help to avoid screen time</p>
+                    </div>
+                </div>
+                <nav class="footer__column footer__column_type_contact">
+                    <h2 class="footer__column-heading">Email us</h2>
+                    <form class="footer__form" name="form" novalidate>
+                        <fieldset class="footer__form-formset">
+                            <input class="footer__form-input" type="text" placeholder="Your name" required />
+                            <input class="footer__form-input" type="email" placeholder="your_email@mail.com" required />
+                            <textarea class="footer__form-textarea" placeholder="Your text"></textarea>
+                            <button aria-label="submit" class="button button_footer" type="button">
+                                Send
+                            </button>
+                        </fieldset>
+                    </form>
+                </nav>
+                <nav class="footer__column footer__column_type_follow">
+                    <h2 class="footer__column-heading">Follow us</h2>
+                    <div class="footer__list">
+                        <a class="footer__column-link" href="#">
+                            <img class="footer__social-icons" src="./images/fb.svg" alt="facebook icon" />facebook
+                        </a>
+                        <a class="footer__column-link" href="#">
+                            <img class="footer__social-icons" src="./images/instagram.svg"
+                                alt="instagram icon" />instagram
+                        </a>
+                        <a href="#" class="footer__column-link footer__column-link_type_large">
+                            www.liltreasures.com
+                        </a>
+                    </div>
+                </nav>
+            </div>
+
+        </footer>
+
+        <div class="popup popup_type_form">
+            <div class="popup__form">
+                <button aria-label="popup__close" class="popup__close" type="button"></button>
+                <form class="form" name="form" novalidate>
+                    <h2 class="form__header">Order Form</h2>
+                    <fieldset class="form__set">
+                        <select class="form__input form__select form__select_type_age" name="formSelectAge"
+                            id="formSelectAge" required>
+                            <option class="form__select_option" value="" selected disabled hidden>Select age</option>
+                            <option class="form__select_option" value="1">3-5 years</option>
+                            <option class="form__select_option" value="1">6-9 years</option>
+                            <option class="form__select_option" value="1">10-12 years</option>
+                        </select>
+                        <span class="form__input-error form__input-error_type_email form__input-error_active"
+                            id="formSelectAge-error"></span>
+                        <select class="form__input form__select form__select_type_kit" name="formKitName"
+                            id="formKitName" required>
+                            <option class="form__select_option" value="" selected disabled hidden>Kit type</option>
+                            <option class="form__select_option" value="1">Science Kit</option>
+                            <option class="form__select_option" value="1">Art Kit</option>
+                            <option class="form__select_option" value="1">Nature Kit</option>
+                            <option class="form__select_option" value="1">Surprise Kit</option>
+                        </select>
+                        <span class="form__input-error form__input-error_type_email form__input-error_active"
+                            id="formKitName-error"></span>
+                        <input class="form__input form__input_type_email" type="email" name="formEmail" id="formEmail"
+                            placeholder="mychild@mail.com" required>
+                        <span class="form__input-error form__input-error_type_email form__input-error_active"
+                            id="formEmail-error"></span>
+                        <button aria-label="submit" class="button form__button form__button_disabled" type="submit"
+                            disabled>Submit order</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <div class="popup popup_type_text-box">
+            <div class="popup__form">
+                <button aria-label="popup__close" class="popup__close" type="button"></button>
+                <form class="form" name="form">
+                    <div class="container">
+                        <h2 class="container__title">
+                            Thank you for watching our presentation!
+                        </h2>
+                        <p class="container__subtitle">We had a lot of fun working on it</p>
+                        <img src="./images/group-logo.png" alt="group-logo" class="group-logo">
+                        <ul class="team">
+                            <li>
+                                <p class='team-member'>Lead Designer: Olga Kovalenko</p>
+                            </li>
+                            <li>
+                                <p class='team-member'>Programmers: Zemira Kehati, Sharon Segal</p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="age__img-btn"></div>
+        <template id="age-card-template">
+            <li class="age">
+                <span class="age__color-bg"></span>
+                <h2 class="age__title"></h2>
+                <p class="age__text"></p>
+                <a href="#kits" class="button button_age">Learn More</a>
+                <img class="age__image" src="" alt="" />
+            </li>
+        </template>
+
+        <template id="kit-card-template">
+            <li class="kits__card">
+                <img src="" alt="" class="kits__card-image" />
+                <h3 class="kits__card-title"></h3>
+                <p class="kits__card-description"></p>
+                <div class="kits__card-contents">
+                    <p class="kits__card-contents_title">With the kit you get:</p>
+                    <ul class="kits__card-contents_list"></ul>
+                </div>
+                <button type="button" class="button button_pink">Order Now!</button>
+            </li>
+        </template>
+
+        <template id="freebie-template">
+            <li class="freebie__item">
+                <a href="" class="freebie__download" target="_blank" download>
+                    <img src="" alt="" class="freebie__image" /></a>
+                <p class="freebie__caption"></p>
+            </li>
+        </template>
+
+        <template id="nav-item-template">
+            <li class="nav__item">
+                <a href="" class="nav__link"></a>
+            </li>
+        </template>
+
+        <template id="title-template">
+            <h2 class="section__title"></h2>
+            <p class="section__subtitle"></p>
+        </template>
+
+        <script src="./pages/index.js" type="module"></script>
+</body>
+
+</html>

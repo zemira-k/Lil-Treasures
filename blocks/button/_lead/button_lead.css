@@ -1,0 +1,16 @@
+.button_lead {
+  display: inline-block;
+  text-align: center;
+  line-height: 54px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 425px) {
+  .button_lead {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 43px;
+    height: 43px;
+    max-width: 141px;
+  }
+}

@@ -1,0 +1,15 @@
+.form__header {
+  width: 83%;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 1.375;
+  margin: 48px auto 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .form__header {
+    font-size: 35px;
+    margin: 45px auto 0;
+  }
+}

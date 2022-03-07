@@ -1,0 +1,17 @@
+.nav {
+  position: relative;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    height: 50vh;
+    max-width: 100%;
+    width: 350px;
+    overflow: hidden;
+    margin: 0;
+  }
+}

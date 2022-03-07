@@ -1,0 +1,29 @@
+.button_pink {
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 32px;
+  margin-bottom: 58px;
+  align-self: center;
+  outline: none;
+  color: #000;
+}
+
+.button_pink:hover {
+  color: rgb(31, 31, 31);
+  filter: brightness(0.92);
+  -webkit-filter: brightness(0.92);
+}
+
+@media screen and (max-width: 600px) {
+  .button_pink {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .button_pink {
+    margin-top: 30px;
+    margin-bottom: 54px;
+  }
+}

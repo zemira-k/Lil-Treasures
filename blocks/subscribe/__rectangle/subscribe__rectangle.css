@@ -1,0 +1,31 @@
+.subscribe__rectangle {
+  box-sizing: border-box;
+  background: #c2e2e4;
+  border-radius: 100px;
+  margin: 120px 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1310px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .subscribe__rectangle {
+    margin: 100px 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .subscribe__rectangle {
+    margin: 60px 0;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+  }
+}

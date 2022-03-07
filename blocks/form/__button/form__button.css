@@ -1,0 +1,22 @@
+.form__button {
+  width: 35%;
+  min-height: 54px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 44px auto 77px;
+}
+
+.form__button:disabled {
+  opacity: 0.6;
+  background-color: #ebebeb;
+  color: #bfbfbf;
+  user-select: none;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .form__button {
+    width: 50%;
+  }
+}

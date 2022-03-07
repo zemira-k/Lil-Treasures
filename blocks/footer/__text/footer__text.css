@@ -1,0 +1,10 @@
+.footer__text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.37;
+  margin: 0 0 2px 0;
+}
+
+.footer__text:first-of-type {
+  margin-top: 31px;
+}

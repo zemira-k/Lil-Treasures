@@ -1,0 +1,17 @@
+.nav__item {
+  margin-left: 58px;
+}
+
+@media screen and (max-width: 1280px) {
+  .nav__item {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav__item {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+}

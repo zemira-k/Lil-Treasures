@@ -1,0 +1,15 @@
+.freebie__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 425px) {
+  .freebie__list {
+    row-gap: 36px;
+  }
+}

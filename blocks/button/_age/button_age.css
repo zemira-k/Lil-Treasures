@@ -1,0 +1,17 @@
+.button_age {
+  max-width: 158px;
+  max-height: 54px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 54px;
+  margin-bottom: 196px;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 425px) {
+  .button_age {
+    font-size: 14px;
+    align-self: center;
+    margin-bottom: 14px;
+  }
+}
